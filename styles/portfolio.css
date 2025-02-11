@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #D2C7D4;
+}
+    body {
+        margin-top: 100px;
+        height: 100%;
+        max-width: 100%;
+        padding-top: 100px;
+    }
+
+.bg-purple {
+    background-color: #D2C7D4 !important;
+}
+
+.navbar-icon {
+    justify-content: center;
+ }
+
+ .homepage-image {
+    max-width: 50%;
+
+ }
+
+
+.footer {
+    background: var(--primary-color);
+    text-align: center;
+    padding: 15px 20px;
+}
