@@ -52,3 +52,16 @@
 .footer a:hover {
     color:rgb(166, 6, 153)
 }
+
+@media (max-width: 576px) {
+    h1, h2, p {
+        padding: 0;
+        text-align: center;
+    
+    }
+    .homepage-paragraph {
+        padding: 0;
+        margin-bottom: 20px;
+    
+    }
+}
