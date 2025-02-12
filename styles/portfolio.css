@@ -29,6 +29,10 @@
     height: auto;
 }
 
+.gradient-color {
+    background-color: var(--primary-color);
+}
+
 .footer {
     background: var(--primary-color);
     text-align: center;
