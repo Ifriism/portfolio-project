@@ -1,29 +1,50 @@
 :root {
-    --primary-color: #D2C7D4;
+    --primary-color: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 64, 0.58) 100.1%);
 }
     body {
-        margin-top: 100px;
-        height: 100%;
-        max-width: 100%;
-        padding-top: 100px;
+     margin-top: 100px;
     }
 
-.bg-purple {
-    background-color: #D2C7D4 !important;
+    .homepage-paragraph {
+        line-height: 1.5;
+    }
+
+.navbar {
+    background-image: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 64, 0.58) 100.1%);
+    color: white;
 }
 
 .navbar-icon {
-    justify-content: center;
- }
+    color:white;
+    margin-left: 20px;
+}
 
- .homepage-image {
-    max-width: 50%;
+.nav-link {
+    color: white !important;
+   margin-left: 20px;
+}
 
- }
-
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 
 .footer {
     background: var(--primary-color);
     text-align: center;
+    color: white;
     padding: 15px 20px;
+}
+
+.fa-brands {
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color:rgb(166, 6, 153)
 }
