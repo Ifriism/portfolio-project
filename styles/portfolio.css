@@ -33,6 +33,17 @@
     background-color: var(--primary-color);
 }
 
+.project-btn, .learn-more-button {
+    text-decoration: none;
+    border: 1px solid rgb(20, 6, 150);
+    background-color: rgb(20, 6, 150);
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: white;
+}
+
+
 .footer {
     background: var(--primary-color);
     text-align: center;
