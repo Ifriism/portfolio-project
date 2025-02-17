@@ -1,12 +1,23 @@
 :root {
     --primary-color: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 64, 0.58) 100.1%);
 }
+
     body {
      margin-top: 100px;
     }
 
     .homepage-paragraph {
         line-height: 1.5;
+        padding: 50px 20px;
+    }
+
+    .secondary-paragraph {
+        line-height: 1.5;
+        padding: 20px 5px;
+    }
+    
+    .about-page {
+            padding: 20px 30px;
     }
 
 .navbar {
@@ -25,8 +36,7 @@
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+    padding: 50px 20px;
 }
 
 .gradient-color {
@@ -65,9 +75,13 @@
 }
 
 @media (max-width: 576px) {
+
+    body {
+        margin-bottom: 100px;
+    }
+
     h1, h2, p {
         padding: 0;
-        text-align: center;
         margin-top: 20px;
     }
 
@@ -84,5 +98,10 @@
         padding: 0;
         margin-bottom: 20px;
     
+    }
+
+    .secondary-paragraph {
+        line-height: 1.5;
+        margin: 0 auto;
     }
 }
