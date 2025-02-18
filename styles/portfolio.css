@@ -4,18 +4,10 @@
 
     body {
      margin-top: 100px;
+     margin-bottom: 100px;
     }
 
-    .homepage-paragraph {
-        line-height: 1.5;
-        padding: 50px 20px;
-    }
-
-    .secondary-paragraph {
-        line-height: 1.5;
-        padding: 20px 5px;
-    }
-    
+   
     .about-page {
             padding: 20px 30px;
     }
@@ -36,7 +28,7 @@
 }
 
 .img-fluid {
-    padding: 50px 20px;
+    margin: 20px 0 0;
 }
 
 .gradient-color {
@@ -49,8 +41,23 @@
     background-color: rgb(20, 6, 150);
     padding: 10px 15px;
     border-radius: 4px;
-    margin-top: 10px;
     color: white;
+}
+
+.content h2 {
+    font-size: 44px;
+    margin: 20px 0 0;
+    line-height: 1.5;
+    }
+
+.content h3 {
+font-size: 24px;
+margin: 20px 0 0;
+line-height: 1.5;
+}
+
+.content p {
+    font-size: 15px;
 }
 
 
@@ -80,28 +87,22 @@
         margin-bottom: 100px;
     }
 
-    h1, h2, p {
-        padding: 0;
-        margin-top: 20px;
-    }
-
-    h1 {
+      .content h1 {
         font-size: 40px;
         line-height: 1.5;
     }
 
-    h2 {
+    .content h2 {
         font-size: 35px;
     }
 
-    .homepage-paragraph {
-        padding: 0;
-        margin-bottom: 20px;
-    
+   .content p {
+        font-size: 15px;
     }
 
-    .secondary-paragraph {
-        line-height: 1.5;
-        margin: 0 auto;
+    .content {
+        padding: 0;
+        margin: 20px 10px;
+    
     }
 }
