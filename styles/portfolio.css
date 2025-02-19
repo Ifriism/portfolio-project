@@ -12,6 +12,30 @@
         font-family: var(--secondary-font);
     }
 
+    form {
+        padding: 1rem;
+      }
+      
+      input[type="text"],
+      input[type="email"] {
+        display: block;
+        width: 50%;
+        padding: 0.8rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+        border-radius: 0.3rem;
+        border: 1px solid rgba(20, 6, 150, 0.25);
+      }
+      
+      input[type="submit"] {
+        background-color: rgb(20, 6, 150);
+        color: #FFF;
+        padding: 0.8rem 1.2rem;
+        font-size: 0.9rem;
+        border-radius: 0.3rem;
+        border: none;
+      }
+
    
     .about-page {
             padding: 20px 30px;
@@ -78,7 +102,14 @@ line-height: 1.5;
 }
 
 .fa-brands {
-    color: white;
+    color: rgb(20, 6, 150);
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.submit-btn {
+    padding: 10px 15px;
+    border-radius: 4px;
 }
 
 .footer a {
@@ -90,7 +121,7 @@ line-height: 1.5;
     color:rgb(166, 6, 153)
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
 
     body {
         margin-bottom: 100px;
@@ -114,4 +145,32 @@ line-height: 1.5;
         margin: 20px 10px;
     
     }
+
+    input[type="text"],
+      input[type="email"] {
+        display: block;
+        font-size: 20px;
+        width: 100%;
+        padding: 0.8rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        border-radius: 0.3rem;
+        border: 1px solid rgba(20, 6, 150, 0.25);
+      }
+      
+      input[type="submit"] {
+        background-color: rgb(20, 6, 150);
+        color: #FFF;
+        font-size: 20px;
+        padding: 0.8rem 1.2rem;
+        font-size: 0.9rem;
+        border-radius: 0.3rem;
+        border: none;
+      }
+
+      form {
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
 }
