@@ -31,6 +31,7 @@
         background-color: rgb(20, 6, 150);
         color: #FFF;
         padding: 0.8rem 1.2rem;
+        margin-bottom: 1rem;
         font-size: 0.9rem;
         border-radius: 0.3rem;
         border: none;
@@ -102,15 +103,25 @@ line-height: 1.5;
     padding: 15px 20px;
 }
 
-.fa-brands {
-    color: rgb(20, 6, 150);
-    font-size: 20px;
-    margin-top: 12px;
-}
-
 .submit-btn {
     padding: 10px 15px;
+    background: rgb(197, 219, 239);
     border-radius: 4px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: rgb(20, 6, 150);
+    background: rgb(226, 237, 243);
+    padding: 10px 14px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+    color: white;
+    background-color: rgb(20, 6, 150);
 }
 
 .footer a {
