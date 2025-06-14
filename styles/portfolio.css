@@ -1,14 +1,24 @@
 :root {
     --primary-color: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 64, 0.58) 100.1%);
     --secondary-font: "Indie Flower", serif;
+
 }
 
     body {
-     margin-top: 100px;
-     margin-bottom: 100px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+
     }
 
-    h1, h2, h3 {
+    h1 {
+        font-weight: bold;
+    }
+
+    h2 {
+        font-weight: lighter;
+    }
+
+    h3 {
         font-family: var(--secondary-font);
     }
 
@@ -37,101 +47,134 @@
         border: none;
       }
 
-   
-    .about-page {
-            padding: 20px 30px;
+    .navbar {
+        padding: 1.2rem 0;
+       
     }
 
-.navbar {
-    background-image: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 64, 0.58) 100.1%);
-    color: white;
+    .nav-link {
+        margin-left: 20px;
+        transition: all 100ms ease-in-out;
+        
 }
 
-.navbar-icon {
-    color:white;
-    margin-left: 20px;
+    .nav-link-icon {
+        font-size: 20px;
+        margin-left: 20px;
+        color: #C9379D;
+        padding: 12px 8px 12px 8px;
+        transition: all 100ms ease-in-out;
 }
 
-.nav-link {
-    color: white !important;
-    margin-left: 20px;
-    transition: all 100ms ease-in-out;
-}
-
-.img-fluid {
-    margin: 20px 0 0;
-}
-
-.gradient-color {
-    background-color: var(--primary-color);
-}
-
-.project-btn, .learn-more-button {
-    text-decoration: none;
-    border: 1px solid rgb(20, 6, 150);
-    background-color: rgb(20, 6, 150);
-    padding: 10px 15px;
-    border-radius: 4px;
-    color: white;
-}
-
-.content h1, h2, h3 {
-    font-family: var(--secondary-font);
-}
-
-.content h2 {
-    font-size: 50px;
-    margin: 20px 0 0;
-    line-height: 1.5;
-    }
-
-.content h3 {
-font-size: 34px;
-margin: 20px 0 0;
-line-height: 1.5;
-}
-
-.content p {
-    font-size: 15px;
-}
-
-
-.footer {
-    background: var(--primary-color);
+    .header {
+    margin-top: 15px;
     text-align: center;
-    color: white;
-    padding: 15px 20px;
+    }
+
+    .portrait {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    }
+
+    .shape-outer {
+    display: flex;
+    flex-shrink: 0;
+    height: calc(150px + 4vw);
+    width: calc(150px + 4vw);
+    background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
 
-.submit-btn {
-    padding: 10px 15px;
-    background: rgb(197, 219, 239);
-    border-radius: 4px;
+    .shape-inner {	
+    height: calc(130px + 4vw);
+    width: calc(130px + 4vw);
+    background: url(https://avatars.githubusercontent.com/u/177559638?s=400&u=7227da6025ba8b4a680f8401b5a76d1853b566cd&v=4) no-repeat center;
+    background-size: cover;
+    margin: auto;
 }
 
-.social-links a {
-    margin: 0 10px;
-    color: rgb(20, 6, 150);
-    background: rgb(226, 237, 243);
-    padding: 10px 14px;
-    font-size: 20px;
-    border-radius: 50%;
-    transition: all 100ms ease-in-out;
+    .octagon {
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    		clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
 
-.social-links a:hover {
-    color: white;
-    background-color: rgb(20, 6, 150);
+    .hero-body {
+        text-align: center;
+        background-color: #4058A0;
+        color: white;
+        padding: 20px;
+    }
+
+    .about-page {
+        padding: 20px 30px;
 }
 
-.footer a {
-    color: white;
-    text-decoration: none;
-    transition: all 100ms ease-in-out;
+    .img-fluid {
+        margin: 20px 0 0;
 }
 
-.footer a:hover {
-    color:rgb(121, 152, 177)
+    .project-btn, .learn-more-button {
+        text-decoration: none;
+        border: 1px solid rgb(20, 6, 150);
+        background-color: rgb(20, 6, 150);
+        padding: 10px 15px;
+        border-radius: 4px;
+        color: white;
+}
+
+    .content h2 {
+        font-size: 50px;
+        margin: 20px 0 0;
+        line-height: 1.5;
+    }
+
+    .content h3 {
+        font-size: 34px;
+        margin: 20px 0 0;
+        line-height: 1.5;
+}
+
+    .content p {
+        font-size: 15px;
+}
+
+
+    .footer {
+        text-align: center;
+        padding: 15px 20px;
+}
+
+    .submit-btn {
+        padding: 10px 15px;
+        background: rgb(197, 219, 239);
+        border-radius: 4px;
+}
+
+    .social-links a {
+        margin: 0 10px;
+        color: rgb(20, 6, 150);
+        background: rgb(226, 237, 243);
+        padding: 10px 14px;
+        font-size: 20px;
+        border-radius: 50%;
+        transition: all 100ms ease-in-out;
+}
+
+    .social-links a:hover {
+        color: white;
+        background-color: rgb(20, 6, 150);
+}
+
+    .footer a {
+        color: rgba(0, 0, 0, .5);
+        text-decoration: none;
+        transition: all 100ms ease-in-out;
+}
+
+    .footer a:hover {
+        color:rgb(121, 152, 177)
 
 }
 
