@@ -5,10 +5,22 @@
 }
 
     body {
-     margin-top: 5px;
-     margin-bottom: 5px;
-
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
+
+     nav .navbar-nav li a {
+        font-size: 13px;
+        color: #C9379D !important;
+        text-decoration: none;
+        margin-left: 20px;
+  }
+
+   nav .navbar-nav li a:hover {
+        color: #4058A0 !important;
+        text-decoration: none;
+        margin-left: 20px;
+  }
 
     h1 {
         font-weight: bold;
@@ -24,28 +36,39 @@
 
     form {
         padding: 1rem;
+        width: 50%;
+       
       }
       
       input[type="text"],
       input[type="email"] {
         display: block;
-        width: 50%;
+        width: 100%;
         padding: 0.8rem;
-        margin-bottom: 0.5rem;
         font-size: 0.9rem;
+        margin-top: 1px;
         border-radius: 0.3rem;
-        border: 1px solid rgba(20, 6, 150, 0.25);
+        border: 1px solid rgb(218, 223, 234);
       }
       
       input[type="submit"] {
-        background-color: rgb(20, 6, 150);
+        display: block;
+        width: 100%;
+        background-color: #C9379D;
         color: #FFF;
         padding: 0.8rem 1.2rem;
-        margin-bottom: 1rem;
         font-size: 0.9rem;
+        margin-top: 1px;
         border-radius: 0.3rem;
         border: none;
       }
+
+      .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+}
 
     .navbar {
         padding: 1.2rem 0;
@@ -55,11 +78,27 @@
     .nav-link {
         margin-left: 20px;
         transition: all 100ms ease-in-out;
+    }
         
-}
+    .button {
+        font-size: 13px;
+        border: 1px solid #C9379D;
+        border-radius: 15px;
+        padding: 5px 10px;
+        color: #C9379D;
+        background: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    .button:hover {
+        color: white !important;;
+        background-color: #C9379D;
+        text-decoration: none;
+    }
 
     .nav-link-icon {
-        font-size: 20px;
+        font-size: 20px !important;
         margin-left: 20px;
         color: #C9379D;
         padding: 12px 8px 12px 8px;
@@ -67,32 +106,32 @@
 }
 
     .header {
-    margin-top: 15px;
-    text-align: center;
+        margin-top: 15px;
+        text-align: center;
     }
 
     .portrait {
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30px;
+	    display: flex;
+	    flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
     }
 
     .shape-outer {
-    display: flex;
-    flex-shrink: 0;
-    height: calc(150px + 4vw);
-    width: calc(150px + 4vw);
-    background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
+        display: flex;
+        flex-shrink: 0;
+        height: calc(150px + 4vw);
+        width: calc(150px + 4vw);
+        background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5);
 }
 
     .shape-inner {	
-    height: calc(130px + 4vw);
-    width: calc(130px + 4vw);
-    background: url(https://avatars.githubusercontent.com/u/177559638?s=400&u=7227da6025ba8b4a680f8401b5a76d1853b566cd&v=4) no-repeat center;
-    background-size: cover;
-    margin: auto;
+        height: calc(130px + 4vw);
+        width: calc(130px + 4vw);
+        background: url(https://avatars.githubusercontent.com/u/177559638?s=400&u=7227da6025ba8b4a680f8401b5a76d1853b566cd&v=4) no-repeat center;
+        background-size: cover;
+        margin: auto;
 }
 
     .octagon {
@@ -146,12 +185,6 @@
         padding: 15px 20px;
 }
 
-    .submit-btn {
-        padding: 10px 15px;
-        background: rgb(197, 219, 239);
-        border-radius: 4px;
-}
-
     .social-links a {
         margin: 0 10px;
         color: rgb(20, 6, 150);
@@ -167,7 +200,17 @@
         background-color: rgb(20, 6, 150);
 }
 
+    .header-contact-page {
+        text-align: center;
+    
+}
+
+    .footer {
+    font-size: 10px;
+}
+
     .footer a {
+        font-size: 10px;
         color: rgba(0, 0, 0, .5);
         text-decoration: none;
         transition: all 100ms ease-in-out;
@@ -213,11 +256,12 @@
         margin-top: 0.5rem;
         font-size: 0.9rem;
         border-radius: 0.3rem;
-        border: 1px solid rgba(20, 6, 150, 0.25);
+        border: 1px solid rgb(218, 223, 234);
       }
       
       input[type="submit"] {
-        background-color: rgb(20, 6, 150);
+        background-color: #C9379D;
+        color: #FFF;;
         color: #FFF;
         font-size: 20px;
         padding: 0.8rem 1.2rem;
@@ -229,5 +273,6 @@
       form {
         margin-top: 30px;
         margin-bottom: 30px;
+        width: 100%;
       }
 }
