@@ -16,6 +16,14 @@
         font-family: var(--secondary-font);
     }
 
+    ul {
+        padding: 0px !important;
+    }
+
+    li {
+        list-style: none;
+    }
+
     form {
         padding: 1rem;
         width: 50%;
@@ -139,12 +147,39 @@
         text-align: center;
         background-color: #4058A0;
         color: white;
-        padding: 20px;
+        padding: 144px 72px 288px 72px ;
+    }
+
+    .section.skills {
+        text-align: center !important;
+        margin-top: -14rem;
+        padding: 1rem;
     }
 
     .img-fluid {
         margin: 20px 0 0;
 }
+
+    .has-text-center {
+        text-align: center !important;
+    }
+
+    .box {
+        background: #FFF;
+        box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+        border-radius: 12px;
+    }
+
+    div.col-6 {
+        padding: 70px 40px;
+        border-right: 1px solid #E6ECF8;
+    }
+
+    .skill-section-titles {
+        font-size: 20px;
+        font-weight: 800;
+        margin-bottom: 1.5rem;
+    }
 
     .project-btn, .learn-more-button {
         text-decoration: none;
