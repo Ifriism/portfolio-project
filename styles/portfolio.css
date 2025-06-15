@@ -64,7 +64,6 @@
    nav .navbar-nav li a:hover {
         color: #4058A0 !important;
         text-decoration: none;
-        margin-left: 20px;
   }
 
     .nav-link {
@@ -90,7 +89,7 @@
 
     .button:hover {
         color: white !important;
-        background-color: #C9379D;
+        background-color: #C9379D !important;
         text-decoration: none;
     }
 
