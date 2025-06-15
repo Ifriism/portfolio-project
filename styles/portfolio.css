@@ -4,24 +4,6 @@
 
 }
 
-    body {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-     nav .navbar-nav li a {
-        font-size: 13px;
-        color: #C9379D !important;
-        text-decoration: none;
-        margin-left: 20px;
-  }
-
-   nav .navbar-nav li a:hover {
-        color: #4058A0 !important;
-        text-decoration: none;
-        margin-left: 20px;
-  }
-
     h1 {
         font-weight: bold;
     }
@@ -70,17 +52,32 @@
      
 }
 
-    .navbar {
-        padding: 1.2rem 0;
-       
-    }
+    nav .navbar-nav li a {
+        font-size: 14px;
+        color: #C9379D !important;
+        text-decoration: none;
+        margin-left: 10px;
+        padding: 5px 10px;
+        margin-right: 20px;
+  }
+
+   nav .navbar-nav li a:hover {
+        color: #4058A0 !important;
+        text-decoration: none;
+        margin-left: 20px;
+  }
 
     .nav-link {
-        margin-left: 20px;
         transition: all 100ms ease-in-out;
     }
+
+    a.nav-link-project-page {
+        padding: 0px !important;
+        margin: 0px !important;
+
+    }
         
-    .button {
+    a.contact-button {
         font-size: 13px;
         border: 1px solid #C9379D;
         border-radius: 15px;
@@ -92,13 +89,13 @@
     }
 
     .button:hover {
-        color: white !important;;
+        color: white !important;
         background-color: #C9379D;
         text-decoration: none;
     }
 
     .nav-link-icon {
-        font-size: 20px !important;
+        font-size: 22px !important;
         margin-left: 20px;
         color: #C9379D;
         padding: 12px 8px 12px 8px;
@@ -146,10 +143,6 @@
         padding: 20px;
     }
 
-    .about-page {
-        padding: 20px 30px;
-}
-
     .img-fluid {
         margin: 20px 0 0;
 }
@@ -179,7 +172,6 @@
         font-size: 15px;
 }
 
-
     .footer {
         text-align: center;
         padding: 15px 20px;
@@ -202,7 +194,6 @@
 
     .header-contact-page {
         text-align: center;
-    
 }
 
     .footer {
@@ -228,22 +219,58 @@
     }
 
       .content h1 {
-        font-size: 40px;
+        font-size: 25px;
         line-height: 1.5;
     }
 
     .content h2 {
-        font-size: 35px;
+        font-size: 22px;
     }
 
    .content p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .content {
         padding: 0;
         margin: 20px 10px;
     
+    }
+
+    nav .navbar-nav li a {
+        font-size: 14px;
+        color: #C9379D !important;
+        text-decoration: none;
+    }  
+    
+    nav button.navbar-toggler {
+        padding: 8px !important;
+        margin-right: 13px !important;
+    }
+
+    a.nav-link-icon {
+        font-size: 20px !important;
+        margin-left: 15px;
+        color: #C9379D;
+        padding: 0px;
+        transition: all 100ms ease-in-out;
+
+    }
+
+    a.nav-link-project-page {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+        a.contact-button {
+        font-size: 13px !important;
+        border: none;
+        padding: 0px !important;
+        color: #C9379D;
+        background: white;
+        text-decoration: none;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
 
     input[type="text"],
