@@ -70,7 +70,6 @@
   }
 
    nav .navbar-nav li a:hover {
-        color: #4058A0 !important;
         text-decoration: none;
   }
 
@@ -81,6 +80,10 @@
     a.nav-link-project-page {
         padding: 0px !important;
         margin: 0px !important;
+    }
+
+    a.nav-link-project-page:hover {
+        color: #4058A0;
 
     }
         
@@ -95,7 +98,7 @@
         margin-left: 20px;
     }
 
-    .button:hover {
+    .contact-button:hover {
         color: white !important;
         background-color: #C9379D !important;
         text-decoration: none;
@@ -147,7 +150,7 @@
         text-align: center;
         background-color: #4058A0;
         color: white;
-        padding: 144px 72px 288px 72px ;
+        padding: 100px 72px 270px 72px ;
     }
 
     .section.skills {
@@ -170,9 +173,13 @@
         border-radius: 12px;
     }
 
-    div.col-6 {
+    div.col-lg-6 {
         padding: 70px 40px;
-        border-right: 1px solid #E6ECF8;
+        border: none;
+    }
+
+     div.second-child {
+        border-left: 1px solid #E6ECF8;
     }
 
     .skill-section-titles {
@@ -180,6 +187,10 @@
         font-weight: 800;
         margin-bottom: 1.5rem;
     }
+
+     .section.skills .box .content .columns .column {
+        padding: 24px 80px 16px 24px;
+     }
 
     .project-btn, .learn-more-button {
         text-decoration: none;
@@ -296,6 +307,16 @@
         padding: 0px !important;
     }
 
+      div.col-lg-6 {
+        display: block;
+        padding: 50px 30px;
+
+    }
+
+    div.second-child {
+        border-top: 1px solid #E6ECF8;
+    }
+
         a.contact-button {
         font-size: 13px !important;
         border: none;
@@ -336,4 +357,8 @@
         margin-bottom: 30px;
         width: 100%;
       }
+
+
 }
+
+
