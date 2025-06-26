@@ -14,6 +14,7 @@
 
     h3 {
         font-family: var(--secondary-font);
+
     }
 
     ul {
@@ -84,7 +85,6 @@
 
     a.nav-link-project-page:hover {
         color: #4058A0;
-
     }
         
     a.contact-button {
@@ -174,13 +174,14 @@
     }
 
     div.col-lg-6 {
-        padding: 70px 40px;
+        padding: 60px 40px;
         border: none;
     }
 
      div.second-child {
         border-left: 1px solid #E6ECF8;
     }
+
 
     .skill-section-titles {
         font-size: 20px;
@@ -191,15 +192,6 @@
      .section.skills .box .content .columns .column {
         padding: 24px 80px 16px 24px;
      }
-
-    .project-btn, .learn-more-button {
-        text-decoration: none;
-        border: 1px solid rgb(20, 6, 150);
-        background-color: rgb(20, 6, 150);
-        padding: 10px 15px;
-        border-radius: 4px;
-        color: white;
-}
 
     .content h2 {
         font-size: 50px;
@@ -222,11 +214,18 @@
         padding: 15px 20px;
 }
 
+    .social-links {
+        display: flex;
+        margin-top: 18px;
+        margin-bottom: 15px;
+        justify-content: center;
+}
+
     .social-links a {
         margin: 0 10px;
-        color: rgb(20, 6, 150);
+        color: #4058A0;
         background: rgb(226, 237, 243);
-        padding: 10px 14px;
+        padding: 10px 17px;
         font-size: 20px;
         border-radius: 50%;
         transition: all 100ms ease-in-out;
@@ -234,7 +233,7 @@
 
     .social-links a:hover {
         color: white;
-        background-color: rgb(20, 6, 150);
+        background-color: #C9379D;
 }
 
     .header-contact-page {
@@ -266,10 +265,15 @@
       .content h1 {
         font-size: 25px;
         line-height: 1.5;
+   
     }
 
     .content h2 {
         font-size: 22px;
+    }
+
+    .content h3 {
+        font-size: 18px;
     }
 
    .content p {
@@ -309,12 +313,16 @@
 
       div.col-lg-6 {
         display: block;
-        padding: 50px 30px;
+        padding: 40px 30px;
 
     }
 
     div.second-child {
         border-top: 1px solid #E6ECF8;
+    }
+
+    .projects {
+        padding: 0 !important;
     }
 
         a.contact-button {
@@ -358,7 +366,9 @@
         width: 100%;
       }
 
-
+      .hero-body {
+        padding: 50px 30px 260px 30px;
+      }
 }
 
 
