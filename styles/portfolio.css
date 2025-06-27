@@ -275,19 +275,19 @@
     }
 
     .content h2 {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .content h3 {
-        font-size: 19px;
+        font-size: 22px;
     }
 
      .content h4 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
    .content p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .content {
@@ -344,6 +344,12 @@
         text-decoration: none !important;
         margin-left: 0px !important;
         margin-right: 0px !important;
+    }
+
+    .contact-link:hover {
+        color: #C9379D !important;
+        background-color: #FFF;
+        text-decoration: none;
     }
 
     input[type="text"],
