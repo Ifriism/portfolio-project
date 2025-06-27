@@ -87,7 +87,7 @@
         color: #4058A0;
     }
         
-    a.contact-button {
+    a.contact-link {
         font-size: 13px;
         border: 1px solid #C9379D;
         border-radius: 15px;
@@ -98,9 +98,9 @@
         margin-left: 20px;
     }
 
-    .contact-button:hover {
+    .contact-link:hover {
         color: white !important;
-        background-color: #C9379D !important;
+        background-color: #C9379D;
         text-decoration: none;
     }
 
@@ -260,6 +260,10 @@
 
 @media (max-width: 992px) {
 
+    header {
+        margin-top: 10px;
+    }
+
     body {
         margin-bottom: 3px;
     }
@@ -309,6 +313,7 @@
     }
 
     a.nav-link-project-page {
+        font-size: 16px;
         margin: 0px !important;
         padding: 0px !important;
     }
@@ -327,7 +332,15 @@
         padding: 0 !important;
     }
 
-    
+        a.contact-link {
+        font-size: 16px !important;
+        border: none !important;
+        padding: 0px !important;
+        color: #C9379D;
+        text-decoration: none !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
 
     input[type="text"],
       input[type="email"] {
@@ -356,14 +369,14 @@
       form {
         margin-top: 30px;
         margin-bottom: 30px;
-        width: 100%;
+        width: 90%;
       }
 
       .hero-body {
         padding: 50px 30px 260px 30px;
       }
 
-      div.footer {
+      .footer {
         font-size: 12px;
         margin-top: 5px;
      
