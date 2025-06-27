@@ -122,7 +122,8 @@
 	    flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
     .shape-outer {
@@ -240,8 +241,9 @@
         text-align: center;
 }
 
-    .footer {
+    div.footer {
     font-size: 10px;
+
 }
 
     .footer a {
@@ -259,7 +261,7 @@
 @media (max-width: 992px) {
 
     body {
-        margin-bottom: 100px;
+        margin-bottom: 3px;
     }
 
       .content h1 {
@@ -287,7 +289,7 @@
     }
 
     nav .navbar-nav li a {
-        font-size: 14px;
+        font-size: 16px;
         color: #C9379D !important;
         text-decoration: none;
     }  
@@ -298,11 +300,11 @@
     }
 
     a.nav-link-icon {
-        font-size: 20px !important;
+        font-size: 23px !important;
         margin-left: 15px;
         color: #C9379D;
         padding: 0px;
-        transition: all 100ms ease-in-out;
+    
 
     }
 
@@ -325,16 +327,7 @@
         padding: 0 !important;
     }
 
-        a.contact-button {
-        font-size: 13px !important;
-        border: none;
-        padding: 0px !important;
-        color: #C9379D;
-        background: white;
-        text-decoration: none;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
+    
 
     input[type="text"],
       input[type="email"] {
@@ -369,6 +362,12 @@
       .hero-body {
         padding: 50px 30px 260px 30px;
       }
+
+      div.footer {
+        font-size: 12px;
+        margin-top: 5px;
+     
+}
 }
 
 
