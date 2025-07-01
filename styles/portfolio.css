@@ -155,10 +155,27 @@
         padding: 100px 72px 270px 72px ;
     }
 
+    .resume-link {
+        color: #fff;
+        text-decoration: underline !important;
+    }
+
+    .resume-link:hover {
+        color: #C9379D;
+    }
+
     .section.skills {
         text-align: center !important;
         margin-top: -14rem;
         padding: 1rem;
+    }
+
+    .project-link {
+        color: black
+    }
+
+      .project-link:hover {
+        color: #C9379D;
     }
 
     .img-fluid {
