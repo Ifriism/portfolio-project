@@ -320,6 +320,9 @@
         font-size: 16px;
         color: #C9379D !important;
         text-decoration: none;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 0px;
     }  
     
     nav button.navbar-toggler {
@@ -332,7 +335,6 @@
         margin-left: 15px;
         color: #C9379D;
         padding: 0px;
-    
 
     }
 
